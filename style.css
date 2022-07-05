@@ -1,0 +1,41 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero-container{
+    background-image: url(images/donation13.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+
+}
+.limited-width{
+    width: 60%;
+    margin: 0 auto;
+}
+.hero-heading {
+    color: white;
+    font-size: 90px;
+    margin-top: 200px;
+}
+.hero-text {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.donate-button{
+    padding: 20px 30px;
+    color: white;
+    background: #FF5959;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+
