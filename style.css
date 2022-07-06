@@ -78,6 +78,7 @@ html, body {
     font-size: 40px;
     background-color: rgb(238, 236, 236);
     border-radius: 8px;
+    border:none;
     display: flex;
     align-items: center;
     justify-content: center;
