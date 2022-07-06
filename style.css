@@ -122,12 +122,12 @@ html, body {
 .donate-plans{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between!important;
 }
 .donate-plan-items{
-    margin-left: 5px;
-    margin-right: 5px;
     padding: 50px 15px;
+    width: 260px;
+    height: 260px;
     background-color: rgb(238, 236, 236);
     border-radius: 8px;
     text-align: left;
