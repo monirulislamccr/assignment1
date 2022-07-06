@@ -1,10 +1,9 @@
-
+/* Global css */
 html, body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 .margin-top {
     margin-top: 200px;
 }
@@ -14,7 +13,17 @@ html, body {
 .center{
     text-align: center;
 }
+.section-container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
 
+/* hero-section */
 .hero-container{
     background-image: url(images/donation13.jpg);
     height: 100vh;
@@ -37,11 +46,7 @@ html, body {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -9;
 }
-.limited-width{
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-}
+
 .hero-heading {
     color: white;
     font-size: 70px;
@@ -60,11 +65,8 @@ html, body {
     border-radius: 8px;
 }
 
+/* donate-section */
 
-.donate-text {
-    font-size: 20px;
-    margin-bottom: 50px;
-}
 .plans{
     display: flex;
     align-items: center;
@@ -116,6 +118,7 @@ html, body {
      text-align: center;
 }
 
+/* plan-section */
 .donate-plans{
     display: flex;
     align-items: center;
@@ -139,9 +142,10 @@ html, body {
     background-color: #FFF4D6;
 }
 
+/* contact-section */
 .contact-us {
     padding: 100px;
-    background: #FFF4D6;
+    background: #EDF5F6;
 }
 
 .contactus-name, .contactus-email, .contactus-msg {
@@ -150,6 +154,7 @@ html, body {
     display: block;
     margin:10px auto;
     width: 50%;
+    border-radius: 8px;
 }
 
 .contactus-submit {
@@ -164,6 +169,7 @@ html, body {
     margin-top: 30px;
 }
 
+/* getUpdate-section */
 .subscription-container{
     height: 200px;
     background-color: #FFF4D6;
@@ -193,6 +199,7 @@ html, body {
     box-sizing: border-box;
 }
 
+/* footer-section */
 .footer-container{
     height: 200px;
     background-color: black;
